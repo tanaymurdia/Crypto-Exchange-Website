@@ -16,8 +16,6 @@ pycodestyle==2.7.0
 pyflakes==2.3.1
 Pygments==2.10.0
 pypiwin32==223
-pywin32==302
 requests==2.26.0
-unicorn==1.0.3
 urllib3==1.26.7
 Werkzeug==2.0.1
