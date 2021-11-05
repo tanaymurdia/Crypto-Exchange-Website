@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exchange Rates</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Source</th>
+                <th>Bitcoin(Buy)</th>
+                <th>Bitcoin(Sell)</th>
+                <th>Ethereum(Buy)</th>
+                <th>Ethereum(Sell)</th>
+            <tr>
+            <tr>
+                <th>Coinbase</th>
+                <td>{{bitcoin_buy}}</td>
+                <td>{{bitcoin_sell}}</td>
+                <td>{{ethereum_buy}}</td>
+                <td>{{ethereum_sell}}</td>
+            <tr>  
+            <tr>
+                <th>KuCoin</th>
+                <td>{{bitcoin_buy1}}</td>
+                <td>{{bitcoin_sell1}}</td>
+                <td>{{ethereum_buy1}}</td>
+                <td>{{ethereum_sell1}}</td>
+            <tr>  
+        </table>
+        <div>
+            {{bitcoin_winner}}
+        </div>
+        <div>
+            {{ethereum_winner}}
+        </div>
+    </body>
+
+</html>
