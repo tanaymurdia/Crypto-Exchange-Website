@@ -72,7 +72,7 @@ class rate():
 
         if self.ethereum_sell > self.ethereum_sell1:
             sell_win="Coinbase"
-            sell_value=self.ethereum_sell1
+            sell_value=self.ethereum_sell
         else:
             sell_win="KuCoin"
             sell_value=self.ethereum_sell1 
